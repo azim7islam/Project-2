@@ -1,26 +1,20 @@
 body{
     font-family: 'Poppins', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
+margin: 0;
 }
 /* Styles On Main */
-main{
-    margin-left: 120px;
+.color-yellow{
+    color: #e84393;
 }
-/* First Things */
-.first-side{
-    display: flex;
-    width: 100%;
+.st-border{
+    margin-bottom: 0px;
 }
-.first-heading{
-    font-size: 52px;
-    width: 582px;
-    height: 133px;
-    line-height: 70px;
-
+h1{
+    font-size: 45px;
 }
-.first-paragraph{
-    font-size: 16px;
-    width: 85%;
+.inf{
+    margin-left: 100px;
 }
 .link-button{
     background-color: #e84393;
@@ -30,21 +24,20 @@ main{
     border-radius: 30px;
     margin-top: 30px;
 }
-.image-side{
-    width: 100%;
-    height: 414px;
-    top: 210px;
-    margin-left: 200px;
-    background: url(images/Circle\ design.svg);
-    background-repeat: no-repeat;
+.flexible-item{
+    display: flex;
+    margin-bottom: 100px;
 }
-.text-side{
-    width: 160%;
+.width-adjustment{
+    width: 50%;
+    padding-left: 5%;
+}
+.width-adjustment img{
+    width: 78%;
 }
 .text-align{
-    text-align: center;
     font-size: 28px;
-    margin-top: 130px;
+    text-align: center;
 }
 /* Products */
 .product{
@@ -78,18 +71,79 @@ main{
 }
 .see-more{
     position: absolute;
-    left: 1350px;
+    left: 1450px;
     text-decoration: none;
     margin-top: 15px;
+    margin-bottom: 25px;
     color:#e84393;
     font-size: 25px;
+}
+.font-size{
+    font-size: 38px;
+}
+.paragraph-size{
+    font-size: 16px;
+}
+.premier-image img{
+    width: 404px;
+    height: 270px;
+    border-radius: 10px;
+}
+
+.button{
+    background-color: #e84393;
+    color: white;
+    text-decoration: none;
+    padding: 15px 50px;    
+}
+.membership{
+    display: flex;
+    margin-left: 120px;
+    justify-content: space-around;
+    margin-bottom: 150px;
+    margin-top: 80px;
+}
+.premier-details{
+    margin-right: 450px;
+    margin-left: 200px;
 }
 .products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 25px;
     grid-column-gap: 0px;
-    margin-left: 200px;
+    margin-left: 250px;
     margin-right: 250px;
    
+}
+.footer-heading{
+    font-size: 32px;
+    margin-bottom: 0;
+}
+.copyright{
+    font-size: 15px;
+    color: rgb(160, 159, 159);
+    margin-bottom: 0;
+    margin-top: 8px;
+    height: 35px;
+}
+.reserve{
+    margin: 0;
+    color: rgb(160, 159, 159);
+}
+.center{
+    text-align: center;
+    background-color: rgb(11, 1, 58);
+    padding: 30px 70px;
+    color: white;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.logo-{
+    width: 32px;
+    height: 32px;
+    margin: 0px 5px;
 }
